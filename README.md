@@ -31,7 +31,7 @@ Starting with CoinCapAPI, using 2 major endpoints
 2. api.coincap.io/v2/assets <- To get all the assets(currencies) ordered by rank.
 
 And the (2)nd endpoint is called every 1sec time interval to update the prices.<br/>
-The prices are standardized by ($)USD, but we can use (1)st endpoint to convert USD to any currency.<br />
+The prices are standardized by **($)USD**, but we can use (1)st endpoint to convert USD to any currency.<br />
 **Note**: Prices might be not perfectly accurate due to high inflation in Sudan.<br />
 To convert a price from USD to any currencey using (1)st endpoint:<br/>
 E.g:
