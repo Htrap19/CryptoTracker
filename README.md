@@ -32,4 +32,11 @@ Starting with CoinCapAPI, using 2 major endpoints
 
 And the (2)nd endpoint is called every 1sec time interval to update the prices.<br/>
 The prices are standardized by ($)USD, but we can use (1)st endpoint to convert USD to any currency.<br />
-**Note**: Prices might be not perfectly accurate due to high inflation in Sudan.
+**Note**: Prices might be not perfectly accurate due to high inflation in Sudan.<br />
+To convert a price from USD to any currencey using (1)st endpoint:<br/>
+E.g:
+- Bitcoin price from USD to SDG: ```bitcoin.priceUsd / sdg.rateUsd``` to get bitcoin price in SDG.
+- Ethereum price frmo USD to SDG: ```ethereum.priceUsd / sdg.rateUsd``` to get ethereum price in SDG.
+- etc...
+
+And this applies to all the assets. General formula is asset.priceUsd divided by rate.rateUsd.
