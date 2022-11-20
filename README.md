@@ -27,9 +27,9 @@ npm run android
 
 # Methodology
 Starting with CoinCapAPI, using 2 major endpoints
-1. api.coincap.io/v2/rates  <- To get all the rates(currencey bank rate prices).
+1. api.coincap.io/v2/rates <- To get all the rates(currencey bank rate prices).
 2. api.coincap.io/v2/assets <- To get all the assets(currencies) ordered by rank.
 
 And the (2)nd endpoint is called every 1sec time interval to update the prices.<br/>
-The prices are standardized by ($)USD, but we can use (1)st endpoint to convert USD to any currency.
+The prices are standardized by ($)USD, but we can use (1)st endpoint to convert USD to any currency.<br />
 **Note**: Prices might be not perfectly accurate due to high inflation in Sudan.
